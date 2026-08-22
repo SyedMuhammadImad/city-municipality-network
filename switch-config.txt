@@ -1,0 +1,50 @@
+! City Municipality Network — Switch Configuration (Cisco 2960)
+! Creates 5 department VLANs, assigns access ports, and configures the trunk to the router.
+
+enable
+configure terminal
+
+vlan 10
+name VLAN_WATER
+exit
+vlan 20
+name VLAN_ELEC
+exit
+vlan 30
+name VLAN_FIN
+exit
+vlan 40
+name VLAN_COMP
+exit
+vlan 50
+name VLAN_ADMIN
+exit
+
+interface range fa0/1 - 2
+switchport mode access
+switchport access vlan 10
+exit
+
+interface range fa0/3 - 4
+switchport mode access
+switchport access vlan 20
+exit
+
+interface range fa0/5 - 6
+switchport mode access
+switchport access vlan 30
+exit
+
+interface range fa0/7 - 8
+switchport mode access
+switchport access vlan 40
+exit
+
+interface range fa0/9 - 10
+switchport mode access
+switchport access vlan 50
+exit
+
+interface fa0/24
+switchport mode trunk
+exit
