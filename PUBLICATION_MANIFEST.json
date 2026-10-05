@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-05",
+  "title": "City and municipality network design",
+  "runtime_verified_for_publication": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "5d88202b853217c723bde4ea54206901e0bb7f1e0e782347d799332a294adc6f",
+      "bytes": 421
+    },
+    {
+      "path": "lab-manual.md",
+      "sha256": "a2da5ed47d7b2eb8f87e152a50ffff57b73ae0643b63fded4ae5191a607b4a2f",
+      "bytes": 3426
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+      "bytes": 1056
+    },
+    {
+      "path": "README.md",
+      "sha256": "d7d7d0092fd13be6970bfece70b19fe1f7237cf1bbc5a7bd7abaa1dad5ea1fb7",
+      "bytes": 5602
+    },
+    {
+      "path": "router-config.txt",
+      "sha256": "cd7c892da042875daa753d3ad69c977800fc0f8e0f0cd6ca5d719996a9e327a7",
+      "bytes": 657
+    },
+    {
+      "path": "switch-config.txt",
+      "sha256": "01c694be8124520395f35ae9ccf1bf77d97e22239b6f0f608a2e65a7e47b57fb",
+      "bytes": 778
+    }
+  ]
+}

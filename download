@@ -1,8 +1,0 @@
-# OS / editor files
-.DS_Store
-.vscode/
-.idea/
-
-# Packet Tracer backup/autosave files
-*.pkz
-*.pka.bak
