@@ -47,4 +47,8 @@ exit
 
 interface fa0/24
 switchport mode trunk
+switchport trunk allowed vlan 10,20,30,40,50
 exit
+
+end
+write memory

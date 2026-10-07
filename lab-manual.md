@@ -1,4 +1,4 @@
-[← Back to overview](../README.md)
+[← Back to overview](README.md)
 
 # Lab Manual: Building the City Municipality Network
 
@@ -26,7 +26,7 @@ departments using Router-on-a-Stick, OSPF, and DHCP.
 
 ## Step 3: VLAN Creation and Port Assignment on Switch
 
-Full commands: [`configs/switch-config.txt`](../configs/switch-config.txt)
+Full commands: [`configs/switch-config.txt`](switch-config.txt)
 
 ```
 enable
@@ -76,7 +76,7 @@ exit
 
 ## Step 4: Router Subinterface Configuration (Router-on-a-Stick)
 
-Full commands: [`configs/router-config.txt`](../configs/router-config.txt)
+Full commands: [`configs/router-config.txt`](router-config.txt)
 
 ```
 enable
@@ -137,8 +137,12 @@ exit
 ping 192.168.X.X
 ```
 
-**Project completed successfully.**
+The text configuration and lab instructions are complete. Packet Tracer/runtime connectivity has not been rerun for this public edition. Follow the tests above to verify your own simulation.
 
 ---
 
-[← Back to overview](../README.md)
+[← Back to overview](README.md)
+
+## DHCP and OSPF scope
+
+The full router configuration adds five DHCP pools, excluding each gateway and addresses .2–.10 reserved for the static PCs. Select DHCP on PCs if using dynamic addressing; do not claim leases were issued without testing. OSPF declares the five LAN prefixes with all interfaces passive. With one router there are no OSPF neighbors or convergence measurements; inter-VLAN routing uses connected routes. No WAN/internet route or interdepartment access-control policy is supplied.
