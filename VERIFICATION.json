@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
   "project": "city-municipality-network",
-  "completion_scope": "academic project or finished document; not a production certification",
+  "completion_scope": "experimental project or finished document; not a production certification",
   "checks": [
     {
       "name": "Five nonoverlapping VLAN subnets, router gateways, switch access/trunk and static PC mappings match",
@@ -13,6 +13,6 @@
     }
   ],
   "limitations": [
-    "Completed text configuration/lab artifacts only. Packet Tracer and physical-network runtime checks remain unverified."
+    "Completed text configuration/configuration artifacts only. Packet Tracer and physical-network runtime checks remain unverified."
   ]
 }

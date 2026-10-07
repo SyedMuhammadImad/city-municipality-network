@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "title": "City and municipality network design",
   "completion_gate_passed": true,
   "files": [
@@ -9,9 +9,9 @@
       "bytes": 421
     },
     {
-      "path": "lab-manual.md",
-      "sha256": "425828c8e56c91ced74ad4e7d59b6c7ac4630f7a42bbe2033379b52821d99031",
-      "bytes": 4206
+      "path": "examples-manual.md",
+      "sha256": "115266a3e0e6c20690832b58da7987e8e781d5d0aab2abbc5d0385ebf45bee81",
+      "bytes": 4223
     },
     {
       "path": "LICENSE",
@@ -20,8 +20,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "aa1d8ef229093fcbd0051680beefa4380e8893601241287443e53cad461bbb80",
-      "bytes": 982
+      "sha256": "10a52b7b2b44c42df530940ad3adddfa16a9b26909ba94c7211019a13c61c9bd",
+      "bytes": 1007
     },
     {
       "path": "router-config.txt",
@@ -35,8 +35,8 @@
     },
     {
       "path": "VERIFICATION.json",
-      "sha256": "40e62b5e074a435b86690b2748241682581baeb9ddb1b5c677bc4feac2b89d15",
-      "bytes": 666
+      "sha256": "d8811fb58e50ab0bcda148235cddd04503b2f720dbcb874e363570f625d5e0ec",
+      "bytes": 680
     }
   ]
 }

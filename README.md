@@ -1,5 +1,5 @@
-# City municipality network: configuration and lab manual
+# City municipality network: configuration and configuration manual
 
-Completed document/configuration project for five department VLANs. It contains [the lab manual](lab-manual.md), [router configuration](router-config.txt), and [switch configuration](switch-config.txt). Gateway/subnet/VLAN assignments agree across the files; DHCP pools avoid the static PC addresses. The trunk carries VLANs 10–50. OSPF is documented honestly as passive advertisements on a single router, with no neighbor or convergence claim.
+Completed document/configuration project for five department VLANs. It contains [the configuration manual](examples-manual.md), [router configuration](router-config.txt), and [switch configuration](switch-config.txt). Gateway/subnet/VLAN assignments agree across the files; DHCP pools avoid the static PC addresses. The trunk carries VLANs 10–50. OSPF is documented honestly as passive advertisements on a single router, with no neighbor or convergence claim.
 
 This repository publishes finished text artifacts. Packet Tracer and physical-router connectivity were not freshly tested. Apply the configurations to Cisco 1941/2960 devices in your own simulation and follow the gateway/inter-VLAN checks in the manual. Pictures, topology images, videos, credentials and binary simulation files are excluded. No production network security or internet reachability is claimed. See `VERIFICATION.json` for the static consistency checks.

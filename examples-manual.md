@@ -1,6 +1,6 @@
 [← Back to overview](README.md)
 
-# Lab Manual: Building the City Municipality Network
+# configuration Manual: Building the City Municipality Network
 
 **Objective:** Design and implement a VLAN-based network for five
 departments using Router-on-a-Stick, OSPF, and DHCP.
@@ -24,7 +24,7 @@ departments using Router-on-a-Stick, OSPF, and DHCP.
 | Complaints | VLAN_COMP | 40 | 192.168.40.0/24 | 192.168.40.1 |
 | Admin | VLAN_ADMIN | 50 | 192.168.50.0/24 | 192.168.50.1 |
 
-## Step 3: VLAN Creation and Port Assignment on Switch
+## Step 3: VLAN Creation and Port project on Switch
 
 Full commands: [`configs/switch-config.txt`](switch-config.txt)
 
@@ -137,7 +137,7 @@ exit
 ping 192.168.X.X
 ```
 
-The text configuration and lab instructions are complete. Packet Tracer/runtime connectivity has not been rerun for this public edition. Follow the tests above to verify your own simulation.
+The text configuration and configuration instructions are complete. Packet Tracer/runtime connectivity has not been rerun for this public edition. Follow the tests above to verify your own simulation.
 
 ---
 
